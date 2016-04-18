@@ -27,3 +27,7 @@ BOARD_VENDOR := samsung
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6260
 BOARD_RIL_CLASS := ../../../device/samsung/espresso3g/ril
+
+# Selinux
+BOARD_SEPOLICY_DIRS += \
+    device/samsung/espresso3g/sepolicy
