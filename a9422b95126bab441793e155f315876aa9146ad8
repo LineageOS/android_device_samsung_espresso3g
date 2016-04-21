@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_567d946c",
+        "filename": "sepolicy/cpboot-daemon.te",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2016-04-21T19:04:56Z",
+      "side": 1,
+      "message": "device/samsung/espresso3g/sepolicy/cpboot-daemon.te:16: ERROR: end of file in comment\n\nlol",
+      "revId": "a9422b95126bab441793e155f315876aa9146ad8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
