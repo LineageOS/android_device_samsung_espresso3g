@@ -13,8 +13,9 @@ LOCAL_C_INCLUDES += \
 LOCAL_SHARED_LIBRARIES := \
 	libexpat
 
-LOCAL_CFLAGS := -Wall -Werror
+LOCAL_CFLAGS := -Wall
 
 LOCAL_MODULE := libsecnativefeature
 
+include external/stlport/libstlport.mk
 include $(BUILD_SHARED_LIBRARY)
