@@ -29,3 +29,9 @@ $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_espresso3g
+
+# Device build info and fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=espresso10rfxx \
+    BUILD_FINGERPRINT="samsung/espresso10rfxx/espresso10rf:4.2.2/JDQ39/P5100XXDNA1:user/release-keys" \
+    PRIVATE_BUILD_DESC="espresso10rfxx-user 4.2.2 JDQ39 P5100XXDNA1 release-keys"
